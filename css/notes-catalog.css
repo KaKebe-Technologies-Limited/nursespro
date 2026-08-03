@@ -1,0 +1,97 @@
+/* ============================================
+   NursesPro Academy - Public Notes Catalog
+   ============================================ */
+
+.nc-header {
+  background: linear-gradient(135deg, var(--primary-blue), #12253d);
+  padding: 56px 0 40px;
+  color: #fff;
+  text-align: center;
+}
+.nc-header h1 { font-size: 2rem; font-weight: 800; margin-bottom: 10px; }
+.nc-header p { color: rgba(255,255,255,0.82); max-width: 640px; margin: 0 auto 28px; font-size: 0.98rem; }
+
+.nc-search-bar {
+  display: flex;
+  gap: 10px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+.nc-search-input {
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.nc-search-input i {
+  position: absolute;
+  left: 16px;
+  color: #7a8a9a;
+}
+.nc-search-input input {
+  width: 100%;
+  padding: 14px 16px 14px 42px;
+  border-radius: var(--radius-md, 10px);
+  border: none;
+  font-size: 0.95rem;
+  font-family: inherit;
+}
+.nc-search-input input:focus { outline: 3px solid var(--accent-teal); }
+#ncFiltersToggle { background: #fff; color: var(--primary-blue); white-space: nowrap; }
+#ncFiltersToggle:hover { background: var(--light-blue, #eef4fb); color: var(--primary-blue); }
+
+.nc-filters {
+  display: none;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+  max-width: 900px;
+  margin: 18px auto 0;
+  background: rgba(255,255,255,0.06);
+  border-radius: var(--radius-md, 10px);
+  padding: 16px;
+  align-items: end;
+}
+.nc-filters.open { display: grid; }
+.nc-filter-field { text-align: left; }
+.nc-filter-field label {
+  display: block;
+  font-size: 0.75rem;
+  color: rgba(255,255,255,0.75);
+  margin-bottom: 4px;
+}
+.nc-filter-field select, .nc-filter-field input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 0.85rem;
+  font-family: inherit;
+}
+#ncClearFilters {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.4);
+  color: #fff;
+  align-self: end;
+}
+#ncClearFilters:hover { background: rgba(255,255,255,0.1); }
+
+.nc-results-count {
+  color: #7a8a9a;
+  font-size: 0.9rem;
+  margin-bottom: 16px;
+}
+
+/* Note cards are clickable in the catalog — cursor + view hint */
+.notes-grid .note-card { cursor: pointer; }
+.note-card-preview-hint {
+  font-size: 0.74rem;
+  color: var(--accent-teal);
+  margin-top: 8px;
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .nc-header h1 { font-size: 1.5rem; }
+  .nc-search-bar { flex-direction: column; }
+  .nc-filters { grid-template-columns: 1fr 1fr; }
+}

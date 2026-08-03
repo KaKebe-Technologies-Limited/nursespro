@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 52" width="220" height="52">
+  <!-- Logo mark (compact) -->
+  <!-- Circle outline -->
+  <circle cx="26" cy="18" r="16" fill="none" stroke="#1e2d6e" stroke-width="2"/>
+  <!-- Head -->
+  <circle cx="26" cy="13" r="5" fill="#1e2d6e"/>
+  <!-- Cap -->
+  <rect x="21" y="9" width="10" height="4" rx="1.5" fill="#1e2d6e"/>
+  <!-- Cross white -->
+  <rect x="24.5" y="8" width="3" height="7" rx="0.8" fill="#ffffff"/>
+  <rect x="22" y="10.5" width="8" height="3" rx="0.8" fill="#ffffff"/>
+  <!-- Teal body -->
+  <ellipse cx="26" cy="22" rx="6" ry="7" fill="#2ab5b0"/>
+  <!-- Book teal pages -->
+  <path d="M10 34 Q26 29 26 29 Q26 29 42 34 L42 40 Q26 35 26 35 Q26 35 10 40 Z" fill="#2ab5b0"/>
+  <!-- Book spine navy -->
+  <rect x="10" y="38" width="32" height="4" rx="1" fill="#1e2d6e"/>
+  <!-- V wings -->
+  <path d="M18 28 L26 35 L34 28 L32 26 L26 32 L20 26 Z" fill="#1e2d6e"/>
+
+  <!-- Text group -->
+  <!-- "Nurses" navy bold -->
+  <text x="54" y="25" font-family="'Arial Black', Arial, sans-serif" font-size="20" font-weight="900" fill="#1e2d6e">Nurses</text>
+  <!-- "Pro" teal bold -->
+  <text x="148" y="25" font-family="'Arial Black', Arial, sans-serif" font-size="20" font-weight="900" fill="#2ab5b0">Pro</text>
+  <!-- ACADEMY small -->
+  <text x="54" y="40" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#1e2d6e" letter-spacing="4">ACADEMY</text>
+</svg>

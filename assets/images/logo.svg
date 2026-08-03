@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- White background -->
+  <rect width="400" height="400" fill="#ffffff"/>
+
+  <!-- Outer circle (navy) -->
+  <circle cx="200" cy="148" r="90" fill="none" stroke="#1e2d6e" stroke-width="7"/>
+
+  <!-- Open Book (navy spine + teal pages) -->
+  <!-- Left page -->
+  <path d="M90 220 Q145 200 200 218 L200 285 Q145 268 90 285 Z" fill="#2ab5b0"/>
+  <!-- Right page -->
+  <path d="M310 220 Q255 200 200 218 L200 285 Q255 268 310 285 Z" fill="#2ab5b0"/>
+  <!-- Book spine/base -->
+  <path d="M80 280 Q140 290 200 288 Q260 290 320 280 L320 295 Q260 306 200 304 Q140 306 80 295 Z" fill="#1e2d6e"/>
+  <!-- Book center ridge -->
+  <rect x="197" y="218" width="6" height="67" fill="#1e2d6e"/>
+
+  <!-- V-shaped wings / chevron (navy, over book) -->
+  <path d="M155 215 L200 255 L245 215 L230 205 L200 238 L170 205 Z" fill="#1e2d6e"/>
+
+  <!-- Nurse figure body (teal) -->
+  <ellipse cx="200" cy="195" rx="22" ry="30" fill="#2ab5b0"/>
+
+  <!-- Nurse head (navy circle) -->
+  <circle cx="200" cy="148" r="22" fill="#1e2d6e"/>
+
+  <!-- Nurse cap (navy) -->
+  <path d="M182 140 Q200 130 218 140 L216 148 Q200 142 184 148 Z" fill="#1e2d6e"/>
+  <!-- Cap top band -->
+  <rect x="183" y="135" width="34" height="8" rx="3" fill="#1e2d6e"/>
+  <!-- White cross on cap -->
+  <rect x="197" y="130" width="6" height="14" rx="1" fill="#ffffff"/>
+  <rect x="193" y="134" width="14" height="6" rx="1" fill="#ffffff"/>
+
+  <!-- Text: NursesPro -->
+  <!-- "Nurses" in navy -->
+  <text x="72" y="325" font-family="'Arial Black', 'Helvetica Neue', Arial, sans-serif" font-size="54" font-weight="900" fill="#1e2d6e" letter-spacing="-1">Nurses</text>
+  <!-- "Pro" in teal -->
+  <text x="271" y="325" font-family="'Arial Black', 'Helvetica Neue', Arial, sans-serif" font-size="54" font-weight="900" fill="#2ab5b0" letter-spacing="-1">Pro</text>
+
+  <!-- Decorative lines + ACADEMY -->
+  <!-- Left line (teal) -->
+  <line x1="72" y1="338" x2="118" y2="338" stroke="#2ab5b0" stroke-width="2.5"/>
+  <!-- ACADEMY text -->
+  <text x="200" y="344" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1e2d6e" text-anchor="middle" letter-spacing="6">ACADEMY</text>
+  <!-- Right line (teal) -->
+  <line x1="282" y1="338" x2="328" y2="338" stroke="#2ab5b0" stroke-width="2.5"/>
+
+  <!-- Learn · Grow · Lead -->
+  <text x="200" y="368" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#7a8a9a" text-anchor="middle" letter-spacing="2">LEARN  •  GROW  •  LEAD</text>
+</svg>

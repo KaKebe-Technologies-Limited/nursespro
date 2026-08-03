@@ -1,0 +1,7 @@
+# Secrets - never commit real payment credentials
+config/pesapal.php
+config/pesapal_ipn_id.txt
+
+# Uploaded user content
+uploads/notes/*
+!uploads/notes/.gitkeep
