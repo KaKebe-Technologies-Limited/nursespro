@@ -54,7 +54,7 @@ require_once __DIR__ . '/includes/auth_guard.php';
 <section class="nc-header">
   <div class="hn-container">
     <h1>Browse All Study Notes</h1>
-    <p>Search the full NursesPro Academy notes library by topic, subtopic, module, semester, or tutor. Read a free preview of every note — no account needed.</p>
+    <p>Search by topic, module, or tutor. Free preview, no account needed.</p>
     <div class="nc-search-bar">
       <div class="nc-search-input">
         <i class="fas fa-search" aria-hidden="true"></i>
@@ -119,7 +119,7 @@ require_once __DIR__ . '/includes/auth_guard.php';
     <div class="hn-contact-inner">
       <div class="hn-contact-text">
         <h3>Ready for full access?</h3>
-        <p>Create a free account to keep reading past the preview, join live Telegram classes, and unlock every note. Pricing is shown once you're logged in.</p>
+        <p>Create a free account to keep reading.</p>
       </div>
       <div class="hn-contact-actions">
         <a href="#" class="hn-contact-btn hn-call" id="ctaSignupBtn"><i class="fas fa-user-plus"></i> Create Free Account</a>
@@ -134,6 +134,7 @@ require_once __DIR__ . '/includes/auth_guard.php';
     <div class="hn-footer-bottom">
       <p>© <?= date('Y') ?> NursesPro Academy. All rights reserved.</p>
       <p>Kampala, Uganda · <a href="tel:+256392972444">0392 972 444</a> · <a href="tel:+256760167722">0760 167 722</a></p>
+      <p class="hn-footer-credit">Powered by Kakebe Technologies</p>
     </div>
   </div>
 </footer>

@@ -88,6 +88,9 @@ $user = require_role_page(['superadmin', 'tutor']);
         <h1 class="page-title" id="pageTitle">Dashboard Overview</h1>
       </div>
       <div class="topbar-right">
+        <a href="index.php" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" id="viewSiteBtn">
+          <i class="fas fa-external-link-alt" aria-hidden="true"></i> <span>View Site</span>
+        </a>
         <button class="notif-btn" aria-label="Notifications"><i class="fas fa-bell" aria-hidden="true"></i></button>
         <div class="topbar-user">
           <div class="topbar-avatar" data-user-initials aria-hidden="true">AD</div>

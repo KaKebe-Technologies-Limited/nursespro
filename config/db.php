@@ -1,6 +1,11 @@
 <?php
 /**
  * NursesPro Academy - Database connection
+ *
+ * Admin panel login (not DB credentials — for admin-dashboard.php):
+ *   Superadmin: admin@nursespro.ac.ug / Admin1234
+ *   Tutor:      john@demo.com / Tutor1234
+ * (Same accounts shown in the login modal's "Demo Accounts" list — not secret.)
  */
 
 const DB_HOST = 'localhost';

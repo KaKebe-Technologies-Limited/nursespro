@@ -439,36 +439,6 @@
 .hn-feature h4 { font-size: 0.95rem; font-weight: 700; color: var(--primary-blue); margin-bottom: 6px; }
 .hn-feature p { font-size: 0.85rem; color: #5a6a7a; line-height: 1.6; }
 
-/* ── Reviews ── */
-.hn-reviews-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 22px;
-}
-.hn-review {
-  background: #fff;
-  border: 1.5px solid var(--border-color);
-  border-radius: 14px;
-  padding: 28px;
-  transition: var(--transition);
-}
-.hn-review:hover { box-shadow: 0 6px 20px rgba(30,45,110,.09); transform: translateY(-2px); }
-.hn-review-stars { color: var(--accent-teal); font-size: 1rem; margin-bottom: 12px; }
-.hn-review p { font-size: 0.9rem; color: #3a4a5a; line-height: 1.7; font-style: italic; margin-bottom: 20px; }
-.hn-review-author { display: flex; align-items: center; gap: 12px; }
-.hn-review-avatar {
-  width: 42px; height: 42px;
-  border-radius: 50%;
-  background: var(--primary-blue);
-  color: #fff;
-  font-weight: 700;
-  font-size: 0.9rem;
-  display: flex; align-items: center; justify-content: center;
-  flex-shrink: 0;
-}
-.hn-review-author strong { font-size: 0.9rem; color: var(--primary-blue); display: block; }
-.hn-review-author small { color: #7a8a9a; font-size: 0.78rem; }
-
 /* ── Contact strip ── */
 .hn-contact-strip {
   background: var(--primary-blue);
@@ -556,6 +526,7 @@
 }
 .hn-footer-bottom a { color: rgba(255,255,255,.55); text-decoration: none; }
 .hn-footer-bottom a:hover { color: var(--accent-teal); }
+.hn-footer-credit { width: 100%; text-align: center; font-size: 0.76rem; color: rgba(255,255,255,.3); margin-top: 4px; }
 
 /* ── Responsive ── */
 @media (max-width: 900px) {
@@ -581,6 +552,5 @@
 @media (max-width: 480px) {
   .hn-hero-title { font-size: 1.75rem; }
   .hn-courses-grid { grid-template-columns: 1fr; }
-  .hn-reviews-grid { grid-template-columns: 1fr; }
   .hn-icon-item { min-width: 56px; }
 }

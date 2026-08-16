@@ -61,8 +61,7 @@ require_once __DIR__ . '/includes/auth_guard.php';
     <div class="hn-hero-label">WELCOME TO NURSESPRO ACADEMY</div>
     <h1 class="hn-hero-title">Excel in Nursing with<br><span class="hn-teal">Uganda's #1 Platform</span></h1>
     <p class="hn-hero-sub">
-      Access well-structured, secure study notes and live classes designed to help
-      you understand and excel in your nursing and midwifery career.
+      Secure study notes and live classes for nursing and midwifery students.
     </p>
     <div class="hn-hero-cta">
       <button class="hn-btn-solid hn-btn-lg hn-pulse" id="heroSignupBtn">
@@ -116,31 +115,31 @@ require_once __DIR__ . '/includes/auth_guard.php';
 <section class="hn-section" id="courses">
   <div class="hn-container">
     <h2 class="hn-section-title">Browse by <span class="hn-teal">Course</span></h2>
-    <p class="hn-section-sub">Select your programme to access targeted notes, revision, and live sessions.</p>
+    <p class="hn-section-sub">Pick your programme to get started.</p>
     <div class="hn-courses-grid">
       <div class="hn-course-card">
         <div class="hn-course-icon"><i class="fas fa-graduation-cap"></i></div>
         <h3>Certificate in Nursing</h3>
-        <p>Foundation-level nursing programme. Core clinical skills, anatomy, and patient care.</p>
+        <p>Foundation-level nursing.</p>
         <a href="notes.php" class="hn-card-link" id="courseCert">Access Notes ›</a>
       </div>
       <div class="hn-course-card hn-course-card--featured">
         <div class="hn-course-icon"><i class="fas fa-hospital-user"></i></div>
         <div class="hn-featured-tag">Most Popular</div>
         <h3>Diploma in Nursing – Direct</h3>
-        <p>Full-time direct-entry diploma. Comprehensive nursing theory and practical modules.</p>
+        <p>Full-time direct-entry diploma.</p>
         <a href="notes.php" class="hn-card-link" id="courseDirect">Access Notes ›</a>
       </div>
       <div class="hn-course-card">
         <div class="hn-course-icon"><i class="fas fa-user-nurse"></i></div>
         <h3>Diploma in Nursing – Extension</h3>
-        <p>Part-time extension programme for working health workers upgrading their qualifications.</p>
+        <p>Part-time, for working health workers.</p>
         <a href="notes.php" class="hn-card-link" id="courseExt">Access Notes ›</a>
       </div>
       <div class="hn-course-card">
         <div class="hn-course-icon"><i class="fas fa-baby"></i></div>
         <h3>Diploma in Midwifery</h3>
-        <p>Maternal and child health, obstetrics, neonatal care, and delivery management.</p>
+        <p>Maternal and child health.</p>
         <a href="notes.php" class="hn-card-link" id="courseMid">Access Notes ›</a>
       </div>
     </div>
@@ -156,19 +155,19 @@ require_once __DIR__ . '/includes/auth_guard.php';
       <div class="hn-step">
         <div class="hn-step-num">1</div>
         <h4>Create Account</h4>
-        <p>Register with your student details in under 2 minutes.</p>
+        <p>Takes under 2 minutes.</p>
       </div>
       <div class="hn-step-arrow"><i class="fas fa-chevron-right"></i></div>
       <div class="hn-step">
         <div class="hn-step-num">2</div>
         <h4>Make Payment</h4>
-        <p>Pay via Mobile Money or card through Pesapal from your dashboard. Instant confirmation.</p>
+        <p>Mobile Money or card, via Pesapal.</p>
       </div>
       <div class="hn-step-arrow"><i class="fas fa-chevron-right"></i></div>
       <div class="hn-step">
         <div class="hn-step-num">3</div>
         <h4>Start Learning</h4>
-        <p>Access secure PDF notes and Telegram live classes for 6 months.</p>
+        <p>Notes and live classes, 6 months.</p>
       </div>
     </div>
   </div>
@@ -184,75 +183,42 @@ require_once __DIR__ . '/includes/auth_guard.php';
         <i class="fas fa-file-pdf hn-feature-icon"></i>
         <div>
           <h4>Secure Study Notes</h4>
-          <p>Well-structured PDF notes organised by course, year, and subject. View-only — protected with your watermark.</p>
+          <p>Organised by course and year.</p>
         </div>
       </div>
       <div class="hn-feature">
         <i class="fab fa-telegram-plane hn-feature-icon"></i>
         <div>
           <h4>Live Telegram Classes</h4>
-          <p>Join interactive sessions with expert tutors. Ask questions and discuss clinical cases in real time.</p>
+          <p>Interactive sessions with tutors.</p>
         </div>
       </div>
       <div class="hn-feature">
         <i class="fas fa-pencil-alt hn-feature-icon"></i>
         <div>
           <h4>Exam Revision</h4>
-          <p>Past papers and practice quizzes curated by experienced tutors to help you ace every exam.</p>
+          <p>Past papers and practice quizzes.</p>
         </div>
       </div>
       <div class="hn-feature">
         <i class="fas fa-user-md hn-feature-icon"></i>
         <div>
           <h4>Expert Tutor Support</h4>
-          <p>Qualified nursing and midwifery professionals who know the Ugandan curriculum inside out.</p>
+          <p>Nursing and midwifery professionals.</p>
         </div>
       </div>
       <div class="hn-feature">
         <i class="fas fa-mobile-alt hn-feature-icon"></i>
         <div>
           <h4>Learn Anywhere</h4>
-          <p>Fully mobile-optimised. Study from your phone, tablet, or computer — any time, anywhere.</p>
+          <p>Phone, tablet, or computer.</p>
         </div>
       </div>
       <div class="hn-feature">
         <i class="fas fa-lock hn-feature-icon"></i>
         <div>
           <h4>Secure &amp; Private</h4>
-          <p>Your data and payments are fully protected. Notes are watermarked and secured against downloading.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ═══ TESTIMONIALS ═══ -->
-<section class="hn-section" id="testimonials">
-  <div class="hn-container">
-    <h2 class="hn-section-title">What Students <span class="hn-teal">Say</span></h2>
-    <div class="hn-reviews-grid">
-      <div class="hn-review">
-        <div class="hn-review-stars">★★★★★</div>
-        <p>"NursesPro Academy changed how I study. The notes are so well-organised and the live Telegram classes are incredibly helpful. I passed Year 1 with distinction!"</p>
-        <div class="hn-review-author">
-          <div class="hn-review-avatar">AN</div>
-          <div><strong>Annet Nabukeera</strong><br><small>Diploma in Nursing (Direct) · Year 2</small></div>
-        </div>
-      </div>
-      <div class="hn-review">
-        <div class="hn-review-stars">★★★★★</div>
-        <p>"The exam revision notes are exactly what I needed. Tutors explain things in a way that's easy to understand. Worth every shilling!"</p>
-        <div class="hn-review-author">
-          <div class="hn-review-avatar">MO</div>
-          <div><strong>Moses Okello</strong><br><small>Diploma in Midwifery (Extension) · Year 3</small></div>
-        </div>
-      </div>
-      <div class="hn-review">
-        <div class="hn-review-stars">★★★★★</div>
-        <p>"I study from Gulu and this platform gives me the same quality education as students in Kampala. The mobile access is perfect for studying during hospital breaks."</p>
-        <div class="hn-review-author">
-          <div class="hn-review-avatar">FA</div>
-          <div><strong>Florence Aber</strong><br><small>Diploma in Nursing (Extension) · Year 1</small></div>
+          <p>Watermarked, download-protected notes.</p>
         </div>
       </div>
     </div>
@@ -264,8 +230,8 @@ require_once __DIR__ . '/includes/auth_guard.php';
   <div class="hn-container">
     <div class="hn-contact-inner">
       <div class="hn-contact-text">
-        <h3>Need help? Talk to us directly.</h3>
-        <p>Our team is available to answer your questions about courses, payment, and access.</p>
+        <h3>Need help?</h3>
+        <p>Talk to us directly.</p>
       </div>
       <div class="hn-contact-actions">
         <a href="https://wa.me/256392972444" class="hn-contact-btn hn-wa" target="_blank" rel="noopener noreferrer">
@@ -288,7 +254,7 @@ require_once __DIR__ . '/includes/auth_guard.php';
     <div class="hn-footer-grid">
       <div class="hn-footer-brand">
         <img src="assets/images/logo-nav.svg" alt="NursesPro Academy" height="38" style="filter:brightness(0) invert(1);opacity:.85;">
-        <p>Empowering nursing and midwifery students across Uganda with quality education and exam preparation.</p>
+        <p>Nursing and midwifery education for Ugandan students.</p>
         <div class="hn-footer-socials">
           <a href="https://wa.me/256392972444" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
           <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
@@ -298,10 +264,10 @@ require_once __DIR__ . '/includes/auth_guard.php';
       </div>
       <div class="hn-footer-col">
         <h5>Courses</h5>
-        <a href="#">Certificate in Nursing</a>
-        <a href="#">Diploma – Direct</a>
-        <a href="#">Diploma – Extension</a>
-        <a href="#">Diploma in Midwifery</a>
+        <a href="notes.php">Certificate in Nursing</a>
+        <a href="notes.php">Diploma – Direct</a>
+        <a href="notes.php">Diploma – Extension</a>
+        <a href="notes.php">Diploma in Midwifery</a>
       </div>
       <div class="hn-footer-col">
         <h5>Platform</h5>
@@ -321,6 +287,7 @@ require_once __DIR__ . '/includes/auth_guard.php';
     <div class="hn-footer-bottom">
       <p>© <?= date('Y') ?> NursesPro Academy. All rights reserved.</p>
       <p>Kampala, Uganda · <a href="tel:+256392972444">0392 972 444</a> · <a href="tel:+256760167722">0760 167 722</a></p>
+      <p class="hn-footer-credit">Powered by Kakebe Technologies</p>
     </div>
   </div>
 </footer>

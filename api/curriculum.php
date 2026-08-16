@@ -1,7 +1,8 @@
 <?php
 /**
  * NursesPro Academy - Curriculum API
- * GET  ?course=&year=&semester=  -> list modules (public within the app; login required)
+ * GET  ?course=&year=&semester=  -> list modules — public (curriculum structure isn't
+ *      sensitive, and the homepage registration form needs it pre-login to preview modules)
  * POST {action:'add'|'update'|'delete', ...}  -> superadmin only
  */
 require_once __DIR__ . '/../includes/auth_guard.php';
@@ -9,7 +10,6 @@ require_once __DIR__ . '/../includes/auth_guard.php';
 $method = $_SERVER['REQUEST_METHOD'];
 
 if ($method === 'GET') {
-  require_login_api();
   $sql = 'SELECT m.id, c.name AS course, m.year, m.semester, m.code, m.title, m.sort_order
           FROM curriculum_modules m JOIN curriculum_courses c ON c.id = m.course_id';
   $where = [];
